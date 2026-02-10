@@ -14,8 +14,6 @@ if CLIENT then
 			table.insert( LSCS.KeyToForce[ ID ], name ) -- it must be done like this so we can bind multiple forcepowers to the same key
 		end
 	end
-else
-	AddCSLuaFile("includes/circles/circles.lua")
 end
 
 function LSCS:RegisterDeflectableTracer( tracername )
